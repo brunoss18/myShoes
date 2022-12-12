@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  background: #1E1E1E;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  height: 5rem;
+}
+
+.container>h1 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 0.025em;
+}
+
+
+.container>div {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.discount>p:first-child {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 129.7%;
+  text-align: left;
+
+}
+
+.list>p {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 127.2%;
+  text-align: left;
+  margin-left: 2rem;
+
+}
+
+.list>button {
+  padding: 0.7rem;
+  border: 1px solid #E7ACB4;
+  color: #E7ACB4;
+  background-color: transparent;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 0.5rem;
+
+  margin: 1rem 0 0 2rem;
+}
+
+
+
+.list>button>span {
+  width: 1rem;
+  background-color: #E7ACB4;
+  color: black;
+  border-radius: 100%;
+  padding: 0.3rem;
+  font-size: 12px;
+  margin: 0.5rem 0rem 0.5rem 1.5rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.logo {
+  margin: .5rem;
+  width: 115px;
+  height: 53.38px;
+}
+
+.shoes-img img {
+  max-width: 100%;
+}
+
+
+.container>div span:nth-child(1) {}
+
+.discount {
+  display: flex;
+  text-align: center;
+  background-color: #2D2D2D;
+  flex-direction: row;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.section-discount {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  background: #2D2D2D;
+}
+
+.section-form {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  background: #E7ACB4;
+}
+
+.section-form>h2 {
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.section-form>p {
+  text-align: center;
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.section-form>div {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-form>div>form>input {
+  border-radius: 0.5rem;
+  padding: 0.4rem 0rem 0.4rem 1rem;
+  width: 12rem;
+  margin-left: 0.5rem;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.section-form>div>form>button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: 1px solid #E7ACB4;
+  color: #E7ACB4;
+  background-color: #1E1E1E;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 0.5rem;
+  margin: 1rem 0 0 1rem;
+
+}
+
+.section-form>div>form>button>span {
+  width: 1rem;
+  background-color: #E7ACB4;
+  color: #1E1E1E;
+  border-radius: 100%;
+  padding: 0.3rem;
+  font-size: 12px;
+  margin: 0.5rem 0rem 0.5rem 1.5rem;
+}
+
+.section-shoes-grid {
+  padding: 3rem;
+  background-color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-shoes-grid>h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 39px;
+  ;
+}
+
+.cards {
+  max-width: 100%;
+  display: flex;
+
+  align-items: center;
+
+  align-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards>.card {
+  width: 16rem;
+  height: 23rem;
+  margin: 2rem;
+  color: black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+div.card> .tittle {
+
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+}
+div.card> .sub{
+
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 27px;
+}
+
+div.card > button{
+  background-color: 
+  #E7ACB4;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.card > img{
+  width: 124px;
+  height: 166px;
+}
