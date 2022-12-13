@@ -9,6 +9,10 @@
   vertical-align: baseline;
 }
 
+body{
+  background: #1E1E1E;
+}
+
 b {
   font-weight: bold;
 }
@@ -34,12 +38,12 @@ ul {
 }
 
 nav {
+  background: white;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   align-items: center;
-
   height: 5rem;
 }
 
@@ -107,7 +111,7 @@ nav {
 
 }
 .list>button>span{
- padding: .2rem;
+ padding: .3rem;
  margin-left: 1rem;
   background-color: #E7ACB4;
   border-radius: 100%;
@@ -330,6 +334,7 @@ div.card>button:hover{
   height: 10.375rem;
 }
 
+
 #timer {
   font-family: Arial, sans-serif;
   font-size: 1.25rem;
@@ -379,6 +384,7 @@ div.card>button:hover{
 
 article {
   padding: 3rem;
+  background: white;
 }
 
 article>.tittle {
@@ -661,4 +667,37 @@ div > form{
   border-radius: 0.5rem;
   background-color: white;
 }
+}
+
+.main {
+  font-family:Arial;
+  width:500px;
+  display:block;
+  margin:0 auto;
+}
+h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.action{
+  display:block;
+  margin:100px auto;
+  width:100%;
+  text-align:center;
+}
+.action a {
+  display:inline-block;
+  padding:5px 10px; 
+  background:#f30;
+  color:#fff;
+  text-decoration:none;
+}
+.action a:hover{
+  background:#000;
 }
