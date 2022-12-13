@@ -114,8 +114,7 @@ nav {
   color: black;
 }
 .list>button>span:hover{
-  width: 6.25rem;
-  height: 6.25rem;
+  
   background-color: white;
 }
 .list>button {
@@ -135,18 +134,11 @@ nav {
 }
 
 .list>button:hover {
-  padding: 0.7rem;
+ 
   border: 1px solid #E7ACB4;
   color: black;
   background-color: #E7ACB4;
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 24px;
-  border-radius: 0.5rem;
-position: relative;
-  margin: 1rem 0 0 2rem;
+  
 }
 
 
